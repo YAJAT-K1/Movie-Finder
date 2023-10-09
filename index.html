@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie-Finder</title>
+</head>
+<body>
+    <h1>Movie-Finder</h1>
+    <p style="color:darkgrey; text-align: center;">Get your favourite movie.</p>
+    <input type="search" id="hello" placeholder="Enter movie name" search-movie>
+    <br>
+    <button type="submit" id="search-button">Find</button>
+
+    <div class="details" ></div>
+
+    <div id="popup" class="popup">
+        <div class="popup-details">
+            <span class="close-popup" onclick="closePopup()">&times;</span>
+            <p style="text-align: center; font-size: x-large;">⚠️</p>
+            <br>
+            <p>Sorry, Movie not found!!!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
